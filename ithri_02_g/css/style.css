@@ -1,0 +1,265 @@
+/* --------- Stylesheets  #B9D3EE   incorporation --------- */
+@import url("content.css");
+@import url("forms.css");
+@import url("templates.css");
+@import url("blocks.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+html {
+	
+	font-family:  Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	background: url("../img/html.png") repeat-x  bottom fixed ;	
+		
+}
+body {
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	unicode-bidi: embed;
+    width:900px;
+	margin: 0 auto;
+	background:  url("../img/content.png") repeat-y  ;
+    
+
+	
+}
+
+
+
+#xo-canvas {
+	width:900px;
+	
+	margin: 0 auto;
+	
+}
+#xo-canvas-content {
+ 
+}
+
+	
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;
+	
+	
+}
+/* --------- Header --------- */
+#xo-header {
+	width:900px;
+	height: 130px;
+	background:  url("../img/header.png") repeat-x  ;
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding: 9px 33px 0 0;
+	padding-left:8px;
+	padding-top:20px;
+} 
+
+
+/* --------- Navigation menu --------- */
+
+
+#xo-navheader {
+	height: 26px;
+	background: url("../img/nav.png") repeat-x;
+	
+	
+	
+}
+#xo-navheader a:hover{ background: #C0FF3E ;
+	
+	color: #fff;
+	height: 4px;
+}
+
+#xo-navheader li{
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#xo-navheader a{
+	float: left;
+	padding: 20px;
+    padding-top:2px;	
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+    font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+    color:#191970;
+    
+}
+#xo-navheader a span{
+	display: block;
+	font-weight: bold; 
+	
+}
+
+
+/*--- Top Blocks ---*/
+#xo-top-shadow {
+	background:;
+	height:0px;
+	
+}
+
+
+	
+/*============== Styles pour l'include userbar.html =================*/
+
+
+
+.xo-userbar form {
+	display:							inline;
+	padding:							0px;
+}
+.xo-userbar button {
+	margin: 							0px -3px;
+	border:							0px none;
+	padding:							0px;
+	background:						transparent none;
+}
+
+.xo-userbar img {
+	width: 							25px;
+	height: 						25px;
+}
+.xo-userbar input {
+	color: 							black;
+	font-size: 						1.2em;
+	background-color: 			inherit;
+}
+
+.xo-userbar a {
+	color: 							#FF4500;
+	
+	text-decoration: 				none;
+	background-color: 			inherit;
+	
+	font-weight:					bold;
+}
+.xo-uname {
+	color: 							#FF0000;
+	font-size:						1.6em;
+	font-weight:					bold;
+	background: 					inherit;
+}
+
+
+.xo-userbar{
+	height: 25px;
+	text-align: left;
+	float: right;
+	padding-right:50px;
+	padding-top:60px;
+}
+
+
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+    
+}
+
+/* --------- Footer --------- */
+#xo-footer {  
+	
+	background-color: transparent;
+	background: url("../img/f.png") repeat-x  bottom;
+	
+	
+	margin:0 auto;
+	
+}
+
+
+.xo-foottext{
+	font-size: 1.1em;
+	color: #000;
+	padding: 0px 30px;
+	vertical-align: middle;
+	text-align: center;	
+	
+	padding-top:33px;
+}
+.xo-foottext a{
+	color: 000;
+	text-decoration: none;
+}
+.xo-foottext a:hover{
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+
+
+/* --------- Block main menu --------- */
+#mainmenu {
+	font-size : 1.1em;
+	
+	padding-bottom:20px;
+	
+}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 4px;
+  font-size: .8em; 
+	font-weight:					bold;
+	color:#006400
+	
+}
+#mainmenu a:hover {color:#FFA500;}
+#mainmenu a.menuTop {
+padding-left: 15px;
+
+
+}
+#mainmenu a.menuMain {
+padding-left: 15px;
+font-size: .8em; 
+	 font-weight:					bold;
+
+
+}
+#mainmenu a.menuSub {
+  padding-left: 20px; color:#575757 ;
+  font-size: .7em;
+}
+#mainmenu a.menuSub:hover {}
+
+/* --------- Block user menu --------- */
+#usermenu {
+font-size: .9em; 
+padding-left: 15px;
+
+padding-bottom:20px;
+}
+#usermenu a {
+  display: block;
+  margin: 0; 
+  padding: 4px;
+}
+#usermenu a:hover {color:#009ACD}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color: #fcc;}
+
+.rss { float: right; padding: 5px 5px 0 0;}
+.rss a:hover {	text-decoration: none;}
+
+
+
+
